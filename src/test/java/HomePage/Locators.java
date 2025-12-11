@@ -1,8 +1,10 @@
+package HomePage;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import util.BaseDriver;
-import util.ReusableMethods;
+import utils.BaseDriver;
+import utils.ReusableMethods;
 
 public class Locators extends ReusableMethods {
 
