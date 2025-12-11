@@ -11,11 +11,7 @@ public class runDownload extends ReusableMethods {
     @DataProvider
     public Object[] musLinks() {
         Object[] links = new Object[]{
-                "https://music.youtube.com/watch?v=XTWCQohpYTA&list=PLBwHLBEVeuF3Q96s_ee3duu2CJpU5Z9ru",
-                "https://music.youtube.com/watch?v=wXbPo9fYf2E&list=PLBwHLBEVeuF2i1B9b0AfeHugQuilcuy3r",
-                "https://music.youtube.com/watch?v=Ucmo6hDZRSY&list=PLBwHLBEVeuF2i1B9b0AfeHugQuilcuy3r",
-                "https://music.youtube.com/watch?v=j65_xyAlkns&list=PLBwHLBEVeuF2i1B9b0AfeHugQuilcuy3r",
-                "https://music.youtube.com/watch?v=dEOmR6b0IqM&list=PLBwHLBEVeuF2i1B9b0AfeHugQuilcuy3r"
+                ""
         };
 
         totalLinks = links.length;
