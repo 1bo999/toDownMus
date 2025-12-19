@@ -27,4 +27,9 @@ public class ReusableMethods extends BaseDriver {
         wait.until(ExpectedConditions.textToBePresentInElement(element, text));
         Assert.assertTrue(element.getText().toLowerCase().contains(text.toLowerCase()));
     }
+
+    public String getElementText(WebElement element) {
+        wait.until(ExpectedConditions.visibilityOf(element));
+        return element.getText();
+    }
 }

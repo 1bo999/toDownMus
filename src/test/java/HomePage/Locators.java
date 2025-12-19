@@ -23,4 +23,9 @@ public class Locators extends ReusableMethods {
 
     @FindBy(xpath = "//form/div[2]/button[2]")
     public WebElement nextBtn;
+
+    @FindBy(xpath = "//form/div[1]")
+    public WebElement songText;
+
+
 }
