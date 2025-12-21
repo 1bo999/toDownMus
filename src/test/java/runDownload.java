@@ -14,6 +14,7 @@ public class runDownload extends ReusableMethods {
     public Object[] musLinks() {
         Object[] links = new Object[]{
                 ""
+
         };
 
         totalLinks = links.length;
@@ -39,7 +40,7 @@ public class runDownload extends ReusableMethods {
 
             if (btnText.equals("Download")) {
                 myClick(loc.downloadBtn);
-                System.out.println("\nClicked download ✅");
+                System.out.println("\nClicked " + loc.downloadBtn.getText() + " ✅");
                 System.out.println(getElementText(loc.songText));
                 System.out.println("Song number: " + counter);
                 downdSong++;
@@ -49,6 +50,7 @@ public class runDownload extends ReusableMethods {
             if (btnText.equals("Back")) {
                 myClick(loc.downloadBtn); // in this case retry button
                 System.out.println("\nRetrying... 🔁");
+                System.out.println("\nClicked " + loc.downloadBtn.getText());
                 attemps++;
 
                 if (attemps == maxAttemps) {
