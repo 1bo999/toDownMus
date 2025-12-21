@@ -41,6 +41,7 @@ public class runDownload extends ReusableMethods {
                 myClick(loc.downloadBtn);
                 System.out.println("\nClicked download ✅");
                 System.out.println(getElementText(loc.songText));
+                System.out.println("Song number: " + counter);
                 downdSong++;
                 break;
             }
