@@ -70,7 +70,7 @@ public class runDownload extends ReusableMethods {
 
         if (counter == totalLinks) {
             threadWait(5);
-            System.out.println(downdSong + " out of " + totalLinks + " downloaded");
+            System.out.println("\n" + downdSong + " out of " + totalLinks + " downloaded");
         }
     }
 }

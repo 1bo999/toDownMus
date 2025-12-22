@@ -2,9 +2,12 @@ package utils;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 
 public class ReusableMethods extends BaseDriver {
+    private static final Logger log = LoggerFactory.getLogger(ReusableMethods.class);
     public static void threadWait(int seconds) {
         try {
             Thread.sleep(seconds * 1000L);
